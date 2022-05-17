@@ -1,11 +1,10 @@
-.container{
-    background-color: #fff;
+/* .container-fluid{
+    background-color: red;
     position: absolute;
     left: 50%;
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    padding: 20px;
-    min-width: 80vw;
-    min-height: 80vh;
-}
+    min-width: 100vw;
+    min-height: 100vh;
+} */
