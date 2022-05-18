@@ -28,6 +28,20 @@
 
 
 .app-footer{
-    position: absolute;
+    position: relative;
     bottom: 0;
+}
+
+.categories{
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: #121c33;
+    color: #fff;
+    padding: 5px 15px;
+    margin: 10px;
+    border: 1px solid #121c33;
+}
+.categories:hover{
+    background-color: #f2bc4b;
+    color: #121c33;
 }
