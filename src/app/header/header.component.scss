@@ -20,3 +20,51 @@
     margin-top: -20px;
     width: 50%;
 }
+
+.right_header{
+    margin-left: 10%;
+}
+@media screen and (max-width: 900px) {
+    .header_text{
+        font-size: 1.8rem;
+    }
+
+    .personal_gifts{
+        font-size: 1.6rem;
+        // width: 70%;
+
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .header_text{
+        font-size: 1.5rem;
+    }
+    .header_text>:nth-child(2){
+        margin-top: 10px !important;
+    }
+    .personal_gifts{
+        font-size: 1.3rem;
+    }
+}
+@media screen and (max-width: 585px) {
+    .header_text{
+        font-size: 1.2rem;
+        width: 25% !important;
+    }
+    .header{
+        padding-left: 10px !important;
+    }
+    .header_text>:nth-child(2){
+        margin-top: 10px !important;
+    }
+    .personal_gifts{
+        font-size: 15px;
+    }
+    .right_header{
+        width: 70% !important;
+    }
+    .right_header{
+        margin-left: 4% !important;
+    }
+}

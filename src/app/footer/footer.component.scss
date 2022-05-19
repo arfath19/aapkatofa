@@ -9,9 +9,10 @@
     background: #fff;
     font-size: 2.5rem;
     font-weight: 500;
-    display: inline-block;
+    // display: inline-block;
     border-radius: 20px;
     margin-left: 4rem;
+    // float: left;
 }
 .header_text>p{
     float: left;
@@ -24,8 +25,8 @@
     background: #fff;
     font-weight: 600;
     // width: 30%;
+    float: right;
 }
-
 
 .app-footer{
     position: relative;
@@ -44,4 +45,52 @@
 .categories:hover{
     background-color: #f2bc4b;
     color: #121c33;
+}
+
+@media screen and (max-width: 900px) {
+    .header_text{
+        font-size: 1.8rem;
+    }
+
+    .personal_gifts{
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .header_text{
+        font-size: 1.5rem;
+        margin-left: 2rem;
+    }
+
+    .personal_gifts{
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    .header_text{
+        font-size: 1.2rem;
+        margin-left: 2rem;
+    }
+
+   
+}
+
+@media screen and (max-width: 610px) {
+    .header_text{
+        font-size: 1.1rem;
+        width: 28% !important;
+    }
+    .header_text>p{
+        padding-left: 2px;
+        margin: 0
+    }
+    .personal_gifts{
+        font-size: 1.1rem;
+        // float: right;
+    }
+    .right_text{
+        width: 50% !important;
+    }
 }
