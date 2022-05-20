@@ -39,7 +39,7 @@
     background-color: #121c33;
     color: #fff;
     padding: 5px 15px;
-    margin: 10px;
+    margin: 10px 7px ;
     border: 1px solid #121c33;
 }
 .categories:hover{
@@ -73,6 +73,10 @@
         font-size: 1.2rem;
         margin-left: 2rem;
     }
+    .categories{
+        margin:6px 6px;
+        padding: 3px 10px;
+    }
 
    
 }
@@ -92,5 +96,21 @@
     }
     .right_text{
         width: 50% !important;
+    }
+    .categories{
+        margin: 5px 7px;
+        padding: 1px 12px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .header_text{
+        width: 33% !important;
+        margin: 0;
+        font-size: 14px;
+    }
+    .right_text{
+        width: 66% !important;
+        font-size: 14px;
     }
 }
