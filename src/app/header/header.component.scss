@@ -21,6 +21,46 @@
     width: 50%;
 }
 
+.login_icon{
+    object-fit: cover;
+    border: 1px solid #fff;
+    position: absolute;
+    right: 10px;
+    top: 2.5rem;
+    background: #fff;
+    border-radius: 40%;
+    cursor: pointer;
+}
+
+.btn{
+    background-color: #121c33;
+    color: #fff;
+}
+.LoginOrLogoutForm{
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: #121c33;
+}
+.sign_in , .sign_up{
+    width: 42%;
+}
+
+.sign_in>* , .sign_up>*{
+    font-size: 14px;
+}
+
+h3{
+    border-bottom: 2px solid #741414;
+    padding-bottom: 10px;
+}
+
+.modal-header{
+    border-bottom: 1.5px solid #741414;
+}
+
 .right_header{
     margin-left: 10%;
 }
@@ -34,6 +74,9 @@
         // width: 70%;
 
     }
+    .right_header{
+        margin-left: 9%;
+    }
 }
 
 @media screen and (max-width: 770px) {
@@ -45,6 +88,9 @@
     }
     .personal_gifts{
         font-size: 1.3rem;
+    }
+    .right_header{
+        margin-left: 8%;
     }
 }
 @media screen and (max-width: 585px) {
@@ -62,11 +108,18 @@
         font-size: 15px;
     }
     .right_header{
-        width: 70% !important;
+        width: 60% !important;
     }
     .right_header{
         margin-left: 4% !important;
     }
+    .login_icon{
+        top: 1.9rem;
+    }
+    .sign_in , .sign_up{
+        width: 100% !important;
+    }
+
 }
 
 
@@ -74,5 +127,10 @@
     
     .personal_gifts{
         width: 68% !important;
+    }
+
+    .login_icon{
+        width:45px;
+        height: 45px;
     }
 }
